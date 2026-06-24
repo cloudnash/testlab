@@ -31,3 +31,7 @@ jobs:
 
       - name: Flake8 check
         run: flake8 --version
+        
+      - name: Pytest check
+        run: pytest --version
+      
